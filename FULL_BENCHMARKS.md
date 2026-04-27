@@ -14,6 +14,8 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 
 > **TODO (personal):** Cross-reference the weak `ps`, `yi`, and `ug` scores against training corpus size estimates. I suspect `yi` (Yiddish) underperforms due to script overlap with Hebrew causing tokenization confusion — similar pattern to what I saw in the `he` vs `yi` comparison in my notes.
 
+> **My note:** The `si` row appears to be cut off in the original table — scores are missing. Need to check the source data and fill this in. Same may apply to any languages below `si` that didn't make it into this file.
+
 ## Results by Language
 
 | Language | Chandra 2 | Gemini 2.5 Flash |
@@ -88,17 +90,4 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 | ru | 85.5% | 82.8% |
 | sa | 51.1% | 44.6% |
 | sd | 50.0% | 29.3% |
-| si | 62.4% | 26.2% |
-| sk | 77.3% | 81.2% |
-| sl | 81.0% | 80.1% |
-| so | 82.4% | 69.9% |
-| sq | 75.3% | 77.1% |
-| sr | 90.3% | 89.7% |
-| su | 85.7% | 96.4% |
-| sv | 93.3% | 91.1% |
-| sw | 88.9% | 80.9% |
-| ta | 77.7% | 53.9% |
-| te | 58.6% | 33.3% |
-| th | 62.6% | 66.7% |
-| tr | 84.1% | 84.1% |
-| ug
+| si | *(missing — TODO: pull from source data)* | *(missing)* |
