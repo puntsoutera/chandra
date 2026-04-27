@@ -12,6 +12,8 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 
 > **My note:** I'm particularly interested in the South/Southeast Asian language results. The gap on `km` (46.1% vs 6.3%), `lo` (60.9% vs 13.3%), and `my` (55.9% vs 15.8%) is striking — worth digging into whether this is a tokenization or training data issue on Gemini's side.
 
+> **TODO (personal):** Cross-reference the weak `ps`, `yi`, and `ug` scores against training corpus size estimates. I suspect `yi` (Yiddish) underperforms due to script overlap with Hebrew causing tokenization confusion — similar pattern to what I saw in the `he` vs `yi` comparison in my notes.
+
 ## Results by Language
 
 | Language | Chandra 2 | Gemini 2.5 Flash |
@@ -99,11 +101,4 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 | te | 58.6% | 33.3% |
 | th | 62.6% | 66.7% |
 | tr | 84.1% | 84.1% |
-| ug | 25.8% | 5.4% |
-| uk | 91.0% | 87.9% |
-| ur | 44.1% | 57.6% |
-| uz | 77.2% | 52.8% |
-| vi | 82.6% | 89.5% |
-| xh | 82.1% | 62.1% |
-| yi | 24.9% | 6.8% |
-| zh | 88.7% | 70.0% |
+| ug
