@@ -10,6 +10,8 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 
 > **Personal note:** Chandra 2 wins on 68 out of 90 languages. Notable weak spots for Chandra 2: `ps` (12.6%), `yi` (24.9%), `ug` (25.8%), and `or` (31.1%). Languages where Gemini 2.5 Flash leads by a significant margin: `su` (+10.7%), `vi` (+6.9%), `ur` (+13.5%).
 
+> **My note:** I'm particularly interested in the South/Southeast Asian language results. The gap on `km` (46.1% vs 6.3%), `lo` (60.9% vs 13.3%), and `my` (55.9% vs 15.8%) is striking — worth digging into whether this is a tokenization or training data issue on Gemini's side.
+
 ## Results by Language
 
 | Language | Chandra 2 | Gemini 2.5 Flash |
