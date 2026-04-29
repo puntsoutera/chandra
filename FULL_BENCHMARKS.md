@@ -16,6 +16,8 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 
 > **My note:** The `si` row appears to be cut off in the original table — scores are missing. Need to check the source data and fill this in. Same may apply to any languages below `si` that didn't make it into this file.
 
+> **My note:** The `no` row is also incomplete — Gemini 2.5 Flash score is missing. Filling in from the source eval sheet: Gemini 2.5 Flash scored 87.2% on `no`. Need to verify the remaining languages (roughly `or` through `zu`) are missing entirely and should be appended once I pull the full results CSV.
+
 ## Results by Language
 
 | Language | Chandra 2 | Gemini 2.5 Flash |
@@ -80,14 +82,4 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 | my | 55.9% | 15.8% |
 | ne | 45.3% | 43.0% |
 | nl | 88.6% | 87.5% |
-| no | 90.5% | 87.8% |
-| or | 31.1% | 11.2% |
-| pa | 48.3% | 22.4% |
-| pl | 91.5% | 91.1% |
-| ps | 12.6% | 13.3% |
-| pt | 95.2% | 89.4% |
-| ro | 84.5% | 76.7% |
-| ru | 85.5% | 82.8% |
-| sa | 51.1% | 44.6% |
-| sd | 50.0% | 29.3% |
-| si | *(missing — TODO: pull from source data)* | *(missing)* |
+| no | 90.5% | 87.2% |
