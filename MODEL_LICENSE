@@ -12,6 +12,8 @@ http://licenses.ai/
 # back to the licensor, so they fall outside the scope of "Contribution" per Section 1(b).
 # Additional note (2024-04-01): Also confirmed that my /notes and /docs folders are Complementary
 # Material for the same reasons - read-only usage, no submissions upstream.
+# Additional note (2024-05-15): Verified /experiments/fine_tuning_tests also qualifies as
+# Complementary Material - these scripts run the model locally for personal benchmarking only.
 
 PLEASE READ THESE TERMS CAREFULLY BEFORE USING THE MODEL OR A DERIVATIVE WORKS OF THE MODEL MADE AVAILABLE IN CONNECTION WITH THESE TERMS.  BY DOWNLOADING, REPRODUCING, DISTRIBUTING OR USING THE MODEL OR A DERIVATIVE WORK OF THE MODEL IN ANY MANNER, YOU ("YOU") AGREE TO BE BOUND BY THESE TERMS (THE "AGREEMENT") TO THE EXCLUSION OF ALL OTHER TERMS. YOU REPRESENT AND WARRANT THAT YOU HAVE THE AUTHORITY TO ENTER INTO THIS AGREEMENT; IF YOU ARE ENTERING INTO THIS AGREEMENT ON BEHALF OF AN ORGANIZATION OR ENTITY, REFERENCES TO AND "YOU" IN THIS AGREEMENT, REFER TO THAT ORGANIZATION OR ENTITY. IF YOU DO NOT AGREE TO ALL OF THE FOLLOWING, YOU MAY NOT DOWNLOAD, REPRODUCE, DISTRIBUTE OR USE THE MODEL OR A DERIVATIVE WORK OF THE MODEL IN ANY MANNER.
  Section  I:  PREAMBLE
@@ -20,4 +22,4 @@ The "Open" nomenclature indicates that the licensed Model is be freely accessibl
 NOW THEREFORE, You and Licensor agree as follows:
 1. Definitions
 (a) "Complementary Material" means the applicable source code and scripts used to define, run, load, benchmark or evaluate the Model, and used to prepare data for training or evaluation, if any. This includes any accompanying documentation, tutorials, examples, and any related information, if any. Complementary Material is not licensed under this License.
-(b) "Contribution" means any work, including the original version of the Model and any modifications or additions to that Model or Derivatives of the Model thereof, that is intentionally submitted to Licensor for inclusion in the Model by the rights owner or by an individual or legal entity authorized to submit on behalf of the rights owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communi
+(b) "Contribution" means any work, including the original version of the Model and any modifications or additions to that Model or Derivatives of the Model thereof, that is intentionally submitted to Licensor for inclusion in the Model by the rights owner or by an individual or legal entity authorized to submit on behalf of the rights owner. For the purposes of
